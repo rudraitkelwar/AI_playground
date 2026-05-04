@@ -1,0 +1,15 @@
+cat >> .gitignore << 'EOF'
+# Virtual environments
+vllm-env-312/
+venv/
+.venv/
+env/
+
+# Model weights (large files)
+models/
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+EOF

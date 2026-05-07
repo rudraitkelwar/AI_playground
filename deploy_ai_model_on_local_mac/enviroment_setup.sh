@@ -12,3 +12,5 @@ python --version
 
 # Now install
 pip install vllm
+
+pip install huggingface_hub
